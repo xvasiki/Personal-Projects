@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[81]:
-
+#This code takes a data set from data.gov which provides quantitative information about car accidents in Maryland in 2012. 
+#It manipulates the data and constructs data visualizations of some of the paramaters. This was a good introductory project for me in working more with
+#different types of data viusalizations. 
+#It also made me more comfortable in breaking down data in ways I best saw fit, such as counting the number of accidents for a particular parameter. 
+#From trial and error I was able to discern which visuals worked best depending on the data. 
 
 import pandas as pd
 import numpy as np
@@ -85,28 +88,6 @@ plt.xlabel('Time of Collision (24HR)')
 plt.ylabel('Number of Collisions')
 plt.grid(zorder=0)
 plt.show()
-
-
-
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
