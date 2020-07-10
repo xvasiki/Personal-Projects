@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
 
 #Vasiki Konneh
 
 #analyzes a data file of COVID cases/deaths in the world and compresses it
-# into graphs comparing deaths and cases to number of days since the first case in respective country
+# into graphs comparing deaths and cases to number of days since the first case in each country
 
 import pandas as pd
 import numpy as np
@@ -49,11 +47,4 @@ for idx in range(0,len(countries)):
     plt.legend()
     # plt.subplot(3, 1, idx+1)
     plt.show()
-
-
-
-# In[ ]:
-
-
-
 
